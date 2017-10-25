@@ -1,0 +1,25 @@
+<div>
+  <div class="post">
+    <div class="post-top">
+      <div class="post-domain"> <a href="/r/{{post.data.subreddit}}" class="post-sub">/r/{{post.data.subreddit}}</a> <a href="http://{{post.data.domain}}" class="post-domain-item">{{post.data.domain}}</a> </div>
+      <div class="post-title"><a href="{{post.data.url}}">{{post.data.title}}</a></div>
+    </div>
+    <div class="post-bottom" style="display: table-cell;">
+      <img style="width: 30px; height: 30px;" src={{post.data.thumbnail}}/>
+      <span style="vertical-align: center; position: relative;
+    top: -9px;
+    margin-left: 8px;
+    margin-right: 10px;
+    border-right: 1px solid grey;
+    border: 1px solid silver;
+    padding: 5px;">
+
+      <span>Upvotes: {{post.data.ups}} | </span>
+      <span>Downvotes: {{post.data.downs}} | </span>
+      <a href="https://reddit.com/{{post.data.permalink}}">
+       <span>Comments: {{post.data.num_comments}}</span>
+     </a>
+   </span>
+    </div>
+  </div>
+</div>

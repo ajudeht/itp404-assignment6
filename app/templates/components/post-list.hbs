@@ -1,0 +1,24 @@
+{{#if loading}}
+
+  <div> Loading... </div>
+
+{{else}}
+
+  {{#if failed}}
+
+    <div>'/r/{{model.subreddit}}' does not exist.</div>
+
+  {{else}}
+
+  {{#if posts.length}}
+
+    {{#each posts as |post|}}
+      {{r-post post=post}}
+    {{/each}}
+    {{else}}
+    <div>No Posts in '/r/{{model.subreddit}}'</div>
+    {{/if}}
+
+  {{/if}}
+
+{{/if}}

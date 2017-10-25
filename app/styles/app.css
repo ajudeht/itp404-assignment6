@@ -1,0 +1,84 @@
+body,html{
+
+font-size: 16px;
+font-family: sans-serif;
+
+}
+
+.post{
+
+padding: .5em;
+
+border-bottom: 1px solid silver;
+
+}
+
+.post-title{
+
+font-weight: bold;
+font-size: 1.3em;
+line-height: 1.5em;
+}
+
+.post-top{
+  padding-bottom: .5em;
+}
+
+.post-bottom{
+  font-size: .9em;
+  border: 1px solid silver;
+  padding: .5em;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+.post-domain{
+margin-top: .5em;
+margin-bottom: 1em;
+
+}
+
+.post-domain-item{
+
+background-color: blue;
+color: white;
+padding: .25em;
+font-weight: normal;
+
+}
+
+.post-sub{
+
+background-color: grey;
+color: white;
+padding: .25em;
+font-weight: normal;
+margin-right: .5em;
+}
+
+.sub-header{
+
+padding: .5em;
+border-bottom: 1px solid silver;
+
+}
+
+input[type='text']{
+padding: .35em;
+border-radius: 2px;
+font-size: .9em;
+border: 1px solid silver;
+}
+
+button{
+font-size: .9em;
+}
+
+.logo{
+
+margin-right: 8px;
+padding-right: 8px;
+border-right: 1px solid silver;
+font-weight: bold;
+
+}
